@@ -19,7 +19,7 @@
 	"display": "standalone",
 	"file_handlers": [
 		{
-			"action": "/?log=y",
+			"action": "./?log=y",
 			"accept": {
 				"application/geo+json": [".geojson"]
 			},
