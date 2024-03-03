@@ -1,0 +1,36 @@
+{
+	"short_name": "GeoJSON Viewer",
+	"name": "Minimal GeoJSON Web Viewer",
+	"icons": [
+		{
+			"src": "./images/treasure-map-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "./images/treasure-map-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	],
+	"start_url": ".",
+	"theme_color": "#db7093",
+	"background_color": "#222222",
+	"display": "standalone",
+	"file_handlers": [
+		{
+			"action": "/?log=y",
+			"accept": {
+				"application/geo+json": [".geojson"]
+			},
+			"icons": [
+				{
+					"src": "./images/treasure-map-256.png",
+					"sizes": "256x256",
+					"type": "image/png"
+				}
+			],
+			"launch_type": "multiple-clients"
+		}
+	]
+}
