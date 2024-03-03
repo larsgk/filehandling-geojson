@@ -125,7 +125,7 @@ img {
 <div class="content">
 <div class="col">
 <div class="row">
-<img src="../images/treasure-map-256.png">
+<img src="./images/treasure-map-256.png">
 <h2>GeoJSON Web Viewer</h2>
 </div>
 
