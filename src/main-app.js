@@ -184,7 +184,8 @@ export class MainApp extends HTMLElement {
 
                 const addToLogImpl = logStr => {
                         // TBD: Change the crude prepend if performing bad on large content
-                        el.textContent = logStr + '\n' + el.textContent;
+                        const ts = (new Date()).toISOString().substring(11,23);
+                        el.textContent = `[${ts}] ${logStr}\n` + el.textContent;
                         console.log(logStr);
                 }
 
